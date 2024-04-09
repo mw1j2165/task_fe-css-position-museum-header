@@ -1,19 +1,28 @@
 main {
   height: 200vh;
-  background-color: rgb(102,102,102);
+  background-color: rgb(164, 182, 182);
 }
 
 a{
   text-decoration: none;
   color: black;
   font-weight: 600;
-  font-size: 22px;
-  padding: 10px;
+  font-size: 21px;
+  padding: 14px;
   font-family:"NarrowNews", sans-serif;
 }
 
 a:hover{
   color: red;
+}
+.navbar{
+  
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(102,102,102);
+  padding: 1px;
 }
 
 
