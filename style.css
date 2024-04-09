@@ -1,8 +1,20 @@
 main {
   height: 200vh;
+  background-color: rgb(102,102,102);
 }
 
-/* твой код */
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px;
+  font-family:"NarrowNews", sans-serif;
+}
+
+a:hover{
+  color: red;
+}
 
 
 
